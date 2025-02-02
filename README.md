@@ -110,4 +110,3 @@ En contraste al resultado anterior, ahora al añadir esta compuerta, no se gener
 
 ## Conclusión
 - Las compuertas lógicas no son perfectas en la actualidad, siempre tendrán un delay el cual nos puede generar problemas varios como lo son los glitches. Sin embargo, mediante diversas técnicas se pueden encontrar soluciones para evitar ser afectados por estos problemas. Es por esta razón que es muy importante comprender lo que es el contamination delay y el propagation delay.
-- 
