@@ -20,10 +20,11 @@ Utilizando la tabla de verdad a continuación, realizar las diferentes actividad
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 125714.png">
 </p>
 
-1. -Construya el circuito utilizando logic Friday o logisim. Muestre el procedimiento para generar las ecuaciones/circuito y logisim para simularlo. Utilice ambas estrategias (Sum of products && Products of a sum) mostrando las tablas de los minterms && maxtermns similar a las vistas en las presentaciones como por ejemplo:
+1. Construya el circuito utilizando logic Friday o logisim. Muestre el procedimiento para generar las ecuaciones/circuito y logisim para simularlo. Utilice ambas estrategias (Sum of products && Products of a sum) mostrando las tablas de los minterms && maxtermns similar a las vistas en las presentaciones como por ejemplo:
 <p align="center">
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 125949.png">
 </p>
+
 2. Seleccione en Digikey compuertas con empaquetado de superficie capaces de operar a 1.8V, muestre proceso de seleccion.
 3. Calcule el margen de ruido en alguna de las secciones dadas las compuertas seleccionadas., muestre las dos compuertas estudiadas y un diagrama de volajes y calcule NMH + NML.
 4. Calcule el critical path y shortest path mostrando los valores de t_pd y t_cd de las compuertas seleccionadas dentro del datasheet
@@ -38,6 +39,7 @@ Simule el siguiente circuito en su protoboard y simule su función:
 <p align="center">
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 130057.png">
 </p>
+
 1. Compruebe su funcionamiento sea el esperado como el de un sumador completo de x1 bit .
 2. Encuentre y mida el contamination + progration delay (Asuma para todas las compuertas un 𝑡𝐶𝐷=1𝑝𝑠 y 𝑡𝑃𝐷=2𝑝𝑠.
 3. Extienda el circuito a un sumador de x2 bits completo (puede usar el circuito de su compañero) y mida de nuevo el contamination + propagation delay (para simulación, construya de forma herarquica e invoque dos instancias del sumador x1 en cascada).
