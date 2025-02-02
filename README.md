@@ -1,4 +1,4 @@
-![Logo Unis](images/Logo_Unis_Default.png)
+![Logo Unis](Images/Logo_Unis_Default.png)
 
 
 # Tarea C2 #
