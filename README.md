@@ -83,7 +83,31 @@ Simule el siguiente circuito en su protoboard y simule su función:
 
 
 ## Inciso 5
+### Instrucciones
 Replique el circuito que genero un glitch:
 <p align="center">
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 130249.png">
 </p>
+
+### Resolución
+Para experimentar con el circuito que se muestra en la imagen, se construyó utilizando el simulador online de [CircuitVerse](https://circuitverse.org/simulator). Mediante este simulador y su herramienta de **delay** se logró observar claramente el Glitch que se genera a raíz de la diferencia del timing entre el critical path y el shortest path, los cuales afectan al output.
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 142437.png">
+</p>
+
+En el Timing Diagram se ve que la señal F3, correspondiente al output del circuito, tiene un instante en el cual se convierte en 0, lo cual no debería suceder, por lo que es un **Glitch**. Lo que genera el glitch en este caso es el Not que toma lugar en el critical path, agregando delay a ese camino que por ende hace que la señal llegue más tarde que la del shortest path.
+Para combatir este problema, el libro sugiere añadir una compuerta AND del siguiente modo:
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 142952.png">
+</p>
+
+Esta compuerta empareja las señales en cuanto al timing, porque añade un retardo. Esto se logró comprobar haciendo diversos experimentos en la simulación y analizando la gráfica de Timing.
+<p align="center">
+  <img align="center" alt="imagen" src="Captura de pantalla 2025-02-02 143342.png">
+</p>
+
+En contraste al resultado anterior, ahora al añadir esta compuerta, no se genera el glitch. En la gráfica de Timing no se observa en ningún momento un 0 en la señal del output, así que la conclusión es que exitosamente se resuelve el problema del glitch al añadir la compuerta.
+
+## Conclusión
+- Las compuertas lógicas no son perfectas en la actualidad, siempre tendrán un delay el cual nos puede generar problemas varios como lo son los glitches. Sin embargo, mediante diversas técnicas se pueden encontrar soluciones para evitar ser afectados por estos problemas. Es por esta razón que es muy importante comprender lo que es el contamination delay y el propagation delay.
+- 
