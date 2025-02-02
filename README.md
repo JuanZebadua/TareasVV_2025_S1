@@ -1,4 +1,4 @@
-![Logo Unis](Images/Logo_Unis_Default.png)
+![Logo Unis](Images/FING_Logo.png)
 
 
 # Tarea C2 #
