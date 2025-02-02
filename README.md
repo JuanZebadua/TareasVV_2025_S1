@@ -38,10 +38,31 @@ Utilizando la tabla de verdad a continuación, realizar las diferentes actividad
 4. Calcule el critical path y shortest path mostrando los valores de t_pd y t_cd de las compuertas seleccionadas dentro del datasheet
 
 ### Resolución
-El inciso se resolvió en el enlace de [Youtube.](https://youtu.be/6Ba4DA_zyks
+El inciso se resolvió en dos videos de youtube, los cuales están en orden:
+- El primer [enlace.](https://youtu.be/eaZxN3DiXYI)
+- El segundo [enlace.](https://youtu.be/-QX8YDW_LkE)
 
 ## Inciso 3
+### Instrucciones
 Fuerce una compuerta a operar en su forbidden zone. Tome mediciones de voltaje con un osciloscopio y muestre lo peligroso de operar en esta región. Puede utilizar cualquier compuerta. Utilice el simulador de circuitos a su elección [tinker con compuertas y divisores de voltaje?].
+### Resolución
+Para realizar este ejercicio en el cual se desea ver en una simulación el comportamiento de una compuerta lógica al tener un input en su Forbidden Zone, se utilizó la aplicación **MultiSim**.
+Ahora bien, dentro de la simulación hay varias compuertas lógicas, pero, se decidió utilizar una muy común por simplicidad, la cual es la compuerta **74HC08D** y tiene las siguientes características de nuestro interés.
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 134308">
+</p>
+
+No obstante, en el software de Multisim, no se puede indicar el voltaje de alimentación, sino que se peuden seleccionar compuertas con un nivel de alimentación fijo, por lo cual no se puede jugar mucho con este parámetro. Con esto en mente, se decidió utilizar una compuerta con alimentación de 2V. La simulación quedó armada del siguiente modo:
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 134557">
+</p>
+
+Ahora, una vez con este ecosistema, se corrió la simulación esperando tener resultados interesantes en la pantalla del osciloscopio cada vez que el voltaje del input variante pasara por los valores de la **Forbidden Zone**, pero, no fue el caso.
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 134809">
+</p>
+
+En el osciloscopio no se logra apreciar nunca un comportamiento como el que sucedería en la vida real al estar operando en la forbidden zone, por lo que se concluye que en la simulación este comportamiento no se puede observar. Ciertamente, es como si las compuertas tuvieran un Schmith Trigger a la hora de operar, lo cual se aleja a la vida real.
 
 ## Inciso 4
 Simule el siguiente circuito en su protoboard y simule su función:
