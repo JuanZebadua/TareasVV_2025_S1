@@ -16,6 +16,10 @@ Resuelva el ejercicio 2.24 explicando como obtuvo la salida Y
 
 ## Inciso 2
 Utilizando la tabla de verdad a continuación, realizar las diferentes actividades.
+<p align="center">
+  <img align="center" alt="logo" src="Images/Captura de pantalla 2025-02-02 125714.png">
+</p>
+
 [![TablaDeVerdad]("Images/Captura de pantalla 2025-02-02 125714.png")]
 1. -Construya el circuito utilizando logic Friday o logisim. Muestre el procedimiento para generar las ecuaciones/circuito y logisim para simularlo. Utilice ambas estrategias (Sum of products && Products of a sum) mostrando las tablas de los minterms && maxtermns similar a las vistas en las presentaciones como por ejemplo:
 ![TablaDeVerdad]("Images/Captura de pantalla 2025-02-02 125949.png")
