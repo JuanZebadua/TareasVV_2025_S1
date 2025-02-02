@@ -1,5 +1,6 @@
-![Logo Unis](Images/FING_Logo.png)
-
+<p align="center">
+  <img align="center" alt="logo" src="Images/FING_Logo.png">
+</p>
 
 # Tarea C2 #
 
