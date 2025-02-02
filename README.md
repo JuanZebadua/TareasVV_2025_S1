@@ -13,15 +13,16 @@
 
 ## Inciso 1
 ### Instrucciones
-    Resuelva el ejercicio 2.24 explicando como obtuvo la salida Y:
-    <p align="center">
-    <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 122954.png">
-    </p>
+Resuelva el ejercicio 2.24 explicando como obtuvo la salida Y:
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 122954.png">
+</p>
 
 ### Resolución
-    aaay
+El inciso se resolvió en el enlace de [Youtube.](https://youtu.be/6Ba4DA_zyks)
 
 ## Inciso 2
+### Instrucciones
 Utilizando la tabla de verdad a continuación, realizar las diferentes actividades.
 <p align="center">
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 125714.png">
@@ -36,7 +37,8 @@ Utilizando la tabla de verdad a continuación, realizar las diferentes actividad
 3. Calcule el margen de ruido en alguna de las secciones dadas las compuertas seleccionadas., muestre las dos compuertas estudiadas y un diagrama de volajes y calcule NMH + NML.
 4. Calcule el critical path y shortest path mostrando los valores de t_pd y t_cd de las compuertas seleccionadas dentro del datasheet
 
-
+### Resolución
+El inciso se resolvió en el enlace de [Youtube.](https://youtu.be/6Ba4DA_zyks
 
 ## Inciso 3
 Fuerce una compuerta a operar en su forbidden zone. Tome mediciones de voltaje con un osciloscopio y muestre lo peligroso de operar en esta región. Puede utilizar cualquier compuerta. Utilice el simulador de circuitos a su elección [tinker con compuertas y divisores de voltaje?].
