@@ -65,6 +65,7 @@ Ahora, una vez con este ecosistema, se corrió la simulación esperando tener re
 En el osciloscopio no se logra apreciar nunca un comportamiento como el que sucedería en la vida real al estar operando en la forbidden zone, por lo que se concluye que en la simulación este comportamiento no se puede observar. Ciertamente, es como si las compuertas tuvieran un Schmith Trigger a la hora de operar, lo cual se aleja a la vida real.
 
 ## Inciso 4
+### Instrucciones
 Simule el siguiente circuito en su protoboard y simule su función:
 <p align="center">
   <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 130057.png">
@@ -73,6 +74,13 @@ Simule el siguiente circuito en su protoboard y simule su función:
 1. Compruebe su funcionamiento sea el esperado como el de un sumador completo de x1 bit .
 2. Encuentre y mida el contamination + progration delay (Asuma para todas las compuertas un 𝑡𝐶𝐷=1𝑝𝑠 y 𝑡𝑃𝐷=2𝑝𝑠.
 3. Extienda el circuito a un sumador de x2 bits completo (puede usar el circuito de su compañero) y mida de nuevo el contamination + propagation delay (para simulación, construya de forma herarquica e invoque dos instancias del sumador x1 en cascada).
+### Resolución
+1. Para los incisos 1 y 2, se elaboró un video para poder mostrar más claramente la operación de los sumadores, pues si no fuera en video, lo ideal sería mostrar uno por uno su funcionamiento acorde a la tabla de verdad, lo cual lleva tiempo y trabajo de más. Es por esta razón que [aquí](https://youtu.be/MbZgptd-Vcs) se adjunta el video.
+2. Tomando los valores de delay y contamination, se calculó lo que se solicita, utilizando el critical path y el shortest path, pues son los caminos más improtantes del circuito.
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 141124.png">
+</p>
+
 
 ## Inciso 5
 Replique el circuito que genero un glitch:
