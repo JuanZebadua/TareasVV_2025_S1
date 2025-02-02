@@ -12,7 +12,14 @@
   * [Inciso 5](#inciso-5)
 
 ## Inciso 1
-Resuelva el ejercicio 2.24 explicando como obtuvo la salida Y
+### Instrucciones
+Resuelva el ejercicio 2.24 explicando como obtuvo la salida Y:
+<p align="center">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 122954.png">
+</p>
+
+### Resolución
+aaay
 
 ## Inciso 2
 Utilizando la tabla de verdad a continuación, realizar las diferentes actividades.
