@@ -103,7 +103,7 @@ Para combatir este problema, el libro sugiere añadir una compuerta AND del sigu
 
 Esta compuerta empareja las señales en cuanto al timing, porque añade un retardo. Esto se logró comprobar haciendo diversos experimentos en la simulación y analizando la gráfica de Timing.
 <p align="center">
-  <img align="center" alt="imagen" src="Captura de pantalla 2025-02-02 143342.png">
+  <img align="center" alt="imagen" src="Images/Captura de pantalla 2025-02-02 143342.png">
 </p>
 
 En contraste al resultado anterior, ahora al añadir esta compuerta, no se genera el glitch. En la gráfica de Timing no se observa en ningún momento un 0 en la señal del output, así que la conclusión es que exitosamente se resuelve el problema del glitch al añadir la compuerta.
